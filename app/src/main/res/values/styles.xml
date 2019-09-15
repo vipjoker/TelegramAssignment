@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="LightTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#F5F5F5</item>
+        <item name="colorPrimaryDark">#E2E3E3</item>
+        <item name="colorAccent">#64686C</item>
+        <item name="android:windowBackground">@color/background_light</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="toolbarStyle">@style/MyToolbar</item>
+        <!--<item name="controlBackground">@color/test2</item>-->
+        <!--<item name="actionBarStyle">@style/LightActionBar</item>-->
+
+        <item name="android:textColor">#000000</item>
+
+        <!-- android:textColorSecondary is the color of the menu
+             overflow icon (three vertical dots) -->
+
+    </style>
+
+
+
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#1C2430</item>
+        <item name="colorPrimaryDark">#161C28</item>
+        <item name="colorAccent">#EDEDED</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="windowActionBar">false</item>
+        <item name="toolbarStyle">@style/MyToolbarDark</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColor">#ccc</item>
+
+    </style>
+
+
+
+
+
+    <style name="MyToolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="titleTextColor">#000</item>
+
+    </style>
+
+
+
+    <style name="MyToolbarDark" parent="Widget.AppCompat.Toolbar">
+        <item name="titleTextColor">#F5F5F5</item>
+        <item name="android:background">?attr/colorPrimary</item>
+
+    </style>
+
+
+
+
+</resources>

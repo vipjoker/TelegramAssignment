@@ -1,0 +1,16 @@
+<resources>
+    <declare-styleable name="CustomSwitch">
+        <attr name="thumb_color" format="color"/>
+        <attr name="back_color" format="color"/>
+        <attr name="back_color_pressed" format="color"/>
+        <attr name="inner_padding" format="dimension"/>
+        <attr name="round_radius" format="dimension"/>
+        <attr name="customTitle" format="string"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="LabelLayout">
+        <attr name="item_space" format="dimension|reference" />
+    </declare-styleable>
+
+</resources>

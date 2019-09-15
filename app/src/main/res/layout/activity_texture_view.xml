@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/colorPrimaryDark"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Statistics"/>
+        <!--android:background="?attr/colorPrimary"-->
+        <!--app:titleTextColor="?attr/colorAccent"-->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="?attr/colorPrimary"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvName"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:maxLength="20"
+                android:ellipsize="end"
+                android:text="Views"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvDate"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:layout_alignParentRight="true"
+                android:text="April"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:orientation="vertical"
+            >
+
+            <vipjokerstudio.com.telegramchart.render.RenderTextureView
+                android:id="@+id/mainTextureView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"/>
+
+            <vipjokerstudio.com.telegramchart.render.RenderTextureView
+                android:id="@+id/miniTextureView"
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="50dp"/>
+
+
+
+            <vipjokerstudio.com.telegramchart.view.LabelLayout
+                android:layout_margin="15dp"
+                app:item_space="7dp"
+                android:id="@+id/llCheckboxes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+        </LinearLayout>
+
+    </LinearLayout>
+

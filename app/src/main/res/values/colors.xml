@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#008577</color>-->
+    <!--<color name="colorPrimaryDark">#00574B</color>-->
+    <!--<color name="colorAccent">#D81B60</color>-->
+    <!--<color name="yellow">#FFEB3B</color>-->
+
+    <color name="background_light">#fff</color>
+    <color name="background_dark">#171E28</color>
+
+
+    <color name="test1">#f0f</color>
+    <color name="test2">#00f</color>
+</resources>
